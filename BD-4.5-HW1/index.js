@@ -14,7 +14,7 @@ app.use(express.json());
 })();
 //Message
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "BD 4.5 CW SQL Comparison Operators" });
+  res.status(200).json({ message: "BD 4.5 HW1 SQL Comparison Operators" });
 });
 //To connect sqlite database run: /node BD-4.5-HW1/initDB.js
 //To run the project: /node BD-4.5-HW1
